@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css_media/media.css">
+ 	    <link rel="icon" href="assets/favicon/icon.ico">		
+        <title>Draw</title>
+    </head>
+
+    <body>
+        <section>
+            <div class="tools">
+                <div class="flex">
+                    <p>Pick a color</p>
+                    <input data-color type="color">
+                </div>
+                <input data-range type="range" min="0" max="100" step="50">
+                <div class="res"><text data-res></text>x<text data-res></text></div>
+                <input data-eraser value="ERASER" class="button" type="button">
+                <input data-clear value="CLEAR" class="button" type="button">
+            </div>
+            <div id="draw3" class="draw"></div>
+        </section>
+        <script src="/java_script/core.js"></script>
+    </body>
+</html>
